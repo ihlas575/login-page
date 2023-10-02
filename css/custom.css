@@ -1,0 +1,146 @@
+.login-form {
+    margin-bottom: 50px;
+}
+
+.form-group {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #897263;
+    -webkit-transition: border-bottom .150s ease-in-out;
+    transition: border-bottom .150s ease-in-out;
+}
+
+.form-group:focus-within {
+    border-bottom: 1px solid rgb(73, 73, 232);
+}
+
+.form-group > div {
+    padding: 10px 20px;
+}
+
+input {
+    border: none;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+
+input:focus-visible {
+    outline: none;
+}
+
+.login-gradient-button {
+    width: 100%;
+    border: none;
+    padding: 16px 0px;
+    border-radius: 100px;
+    cursor: pointer;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 60px;
+    background-image: linear-gradient(to right, #b4bae6, #6722a7);
+}
+
+.login-gradient-button:hover {
+    background-image: linear-gradient(to right, #7e85b9, #4e1682);
+}
+
+.redirect-link {
+    color: #897263;
+    -webkit-transition: color .150s ease-in-out;
+    transition: color .150s ease-in-out;
+}
+
+.redirect-link:hover {
+    color: #574c46;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.social-media > a > button {
+    border: none;
+    height: 50px;
+    width: 50px;
+    padding-top: 5px;
+    /* padding: 15px; */
+    border-radius: 100%;
+    background-color: #6722a7;
+    cursor: pointer;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .content-box {
+        padding: auto;
+        margin: auto;
+        width: 30%;
+        padding: 50px 100px;
+        border-radius: 12px;
+        background-color: white;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px)  {
+    .content-box {
+        padding: auto;
+        margin: auto;
+        width: 30%;
+        padding: 50px 100px;
+        border-radius: 12px;
+        background-color: white;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px)  {
+    .content-box {
+        padding: auto;
+        margin: auto;
+        width: 40%;
+        padding: 50px 100px;
+        border-radius: 12px;
+        background-color: white;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .content-box {
+        padding: auto;
+        margin: auto;
+        width: 75%;
+        padding: 50px 50px;
+        border-radius: 12px;
+        background-color: white;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .content-box {
+        padding: auto;
+        margin: auto;
+        width: 100%;
+        padding: 35px 0px;
+        background-color: white;
+    }
+
+    .login-form {
+        padding: 0px 25px;
+    }
+}

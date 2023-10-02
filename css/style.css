@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@700&display=swap');
+
+body {
+    margin: 0%;
+    padding: 0%;
+    user-select: none;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Gabarito', cursive;
+}
+
+label, span {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p, a {
+    font-family: 'Poppins', sans-serif;
+}
+
+input, button {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.text-start {
+    text-align: start;
+}
